@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+/* header */
+
+header {
+    position: fixed;
+    width: 100vw;
+}
+
 .contenitore_sony {
     background-color: black;
     height: 50px;
@@ -15,4 +22,21 @@
     margin-top: 15px;
     position: absolute;
     right: 10px;
+}
+
+.bottone_accedi {
+    background-color: black;
+    border-radius: 40px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.link_playstation {
+    color: black;
+}
+
+.link_search {
+    margin-top: 15px;
+    margin-left: 1rem;
 }
