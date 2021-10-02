@@ -10,6 +10,11 @@ body {
 
 /* header */
 
+.contenitore_navbar {
+    position: fixed;
+    width: 100vw;
+}
+
 header {
     position: fixed;
     width: 100vw;
@@ -18,14 +23,13 @@ header {
 .contenitore_sony {
     background-color: black;
     height: 50px;
-    position: relative;
 }
 
 .logo_sony {
     height: 20px;
     margin-top: 15px;
+    right: 30px;
     position: absolute;
-    right: 10px;
 }
 
 .bottone_accedi {
@@ -41,8 +45,10 @@ header {
 }
 
 .link_search {
-    margin-top: 15px;
+    margin-top: 12px;
     margin-left: 1rem;
+    margin-right: 30px;
+    font-size: 20px;
 }
 
 /* /header */
@@ -57,12 +63,12 @@ header {
 .hero-image {
     width: 100vw;
     object-fit: contain;
-    height: 900px;
+    height: 800px;
 }
 
 .contenitore_returnal {
-    position: relative;
-    bottom: 30rem;
+    position: absolute;
+    top: 14rem;
     width: 300px;
     margin-left: 3rem;
 }
@@ -71,18 +77,20 @@ header {
     height: 40px;
 }
 
-.titolo_returnal {
+.titolo_hero {
     color: white;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    font-size: 30px;
 }
 
-.paragrafo_returnal {
+.paragrafo_hero {
     color: white;
     margin-bottom: 2rem;
+    font-size: 14px;
 }
 
-.bottone_acquista {
+.bottone_rosso {
     background-color: red;
     border-radius: 40px;
     padding: 10px 20px;
@@ -91,7 +99,7 @@ header {
 }
 
 .cards_container {
-    margin-top: -6rem;
+    margin-top: -10rem;
 }
 
 .img {
@@ -142,9 +150,45 @@ header {
 }
 
 .foto_play5 {
-    height: 800px;
+    height: 600px;
 }
 
 .col_foto {
     margin: -15rem;
+}
+
+.img-play {
+    height: 100px;
+}
+
+.contenitore-cards-play {
+    margin-top: 13rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+}
+
+.row_play {
+    justify-content: center;
+}
+
+.contenitore_takes {
+    width: 100vw;
+    height: 600px;
+    position: relative;
+}
+
+.takes_hero_foto {
+    width: 100%;
+    object-fit: contain;
+}
+
+.contenitore_hero_takes {
+    bottom: 33rem;
+    position: relative;
+    width: 300px;
+    margin-left: 3rem;
+}
+
+.it_takes_photo {
+    height: 150px;
 }
