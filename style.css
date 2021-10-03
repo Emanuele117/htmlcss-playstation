@@ -120,7 +120,7 @@ header {
 }
 
 .colonna_play5 {
-    width: 490px;
+    width: 720px;
     text-align: center;
 }
 
@@ -283,6 +283,7 @@ header {
     background-color: #BEBCBB;
     width: 100vw;
     height: 500px;
+    margin-bottom: 3rem;
 }
 
 .contenitore_img_plus {
@@ -314,4 +315,26 @@ header {
 
 .scritta_bottone {
     color: #5E86E3;
+}
+
+/* /sezione playstation plus */
+
+/* sconti */
+
+.contenitore_sconti {
+    width: 100vw;
+    height: 500px;
+}
+
+.contenitore_foto_sconti {
+    padding: 20px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.img_sconti {
+    height: 350px;
+    width: 350px;
+    margin: 20px;
 }
