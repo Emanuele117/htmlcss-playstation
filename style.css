@@ -8,6 +8,10 @@ body {
     font-family: Arial, sans-serif;
 }
 
+p {
+    margin-bottom: 0;
+}
+
 /* header */
 
 .contenitore_navbar {
@@ -90,6 +94,10 @@ header {
     font-size: 14px;
 }
 
+.paragrafo_grigio {
+    color: grey;
+}
+
 .bottone_rosso {
     background-color: red;
     border-radius: 40px;
@@ -112,7 +120,7 @@ header {
 }
 
 .colonna_play5 {
-    width: 470px;
+    width: 490px;
     text-align: center;
 }
 
@@ -125,7 +133,7 @@ header {
 
 .t_play {
     font-weight: bold;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .contenitore_console {
@@ -173,8 +181,7 @@ header {
 
 .contenitore_takes {
     width: 100vw;
-    height: 600px;
-    position: relative;
+    height: 574px;
 }
 
 .takes_hero_foto {
@@ -191,4 +198,79 @@ header {
 
 .it_takes_photo {
     height: 150px;
+}
+
+.contenitore_nuove_uscite {
+    width: 100vw;
+    height: 820px;
+    background-color: #1F1F1F;
+    margin-bottom: 3rem;
+}
+
+.contenitore_cards_nuove {
+    height: 442px;
+    padding: 40px;
+}
+
+.titolo_nuove_uscite {
+    color: white;
+}
+
+.paragrafo_nuove_uscite {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.cards_nuove {
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.card_nuova {
+    width: 100px;
+    height: 100px;
+    border: none;
+    float: left;
+    margin-right: 8rem;
+}
+
+.cards_body {
+    width: 200px;
+    padding: 0;
+}
+
+.testo_cards {
+    color: white;
+    margin-top: 1rem;
+}
+
+.testo_cards_due {
+    margin-bottom: 0;
+    color: white;
+}
+
+/* contenitore cards PS4 */
+
+.contenitore_cards_ps4 {
+    width: 100vw;
+    height: 500px;
+    margin-top: 4rem;
+}
+
+.cards_ps4 {
+    width: calc(100vw / 3);
+    height: 400px;
+    float: left;
+    border: none;
+}
+
+.titolo_ps4 {
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
+
+.bottone_ps4 {
+    margin-top: 1rem;
+    border-radius: 20px;
 }
