@@ -274,3 +274,44 @@ header {
     margin-top: 1rem;
     border-radius: 20px;
 }
+
+/* /contenitore cards ps4 */
+
+/*sezione playstation plus */
+
+.contenitore_plus {
+    background-color: #BEBCBB;
+    width: 100vw;
+    height: 500px;
+}
+
+.contenitore_img_plus {
+    float: right;
+}
+
+.img_plus {
+    height: 500px;
+}
+
+.contenitore_logo_plus {
+    float: right;
+    width: calc(100vw / 2);
+    margin-top: 8rem;
+}
+
+.img_logo_plus {
+    height: 100px;
+    margin-bottom: 2rem;
+}
+
+.bottone_plus {
+    margin-top: 1rem;
+    border-radius: 20px;
+    border: none;
+    background-color: #D9DADC;
+    margin-top: 2rem;
+}
+
+.scritta_bottone {
+    color: #5E86E3;
+}
