@@ -393,3 +393,39 @@ header {
 /* /playstation now */
 
 /* footer */
+
+.contenitore_links_footer {
+    background-color: #00439C;
+    height: 650px;
+    width: 100vw;
+}
+
+.contenitore_ps_footer {
+    width: calc(100vw / 2);
+    float: left;
+    padding: 100px;
+}
+
+.img_sie {
+    height: 60px;
+    margin-bottom: 1rem;
+}
+
+.row_link_footer {
+    color: white;
+    line-height: 30px;
+}
+
+.p_regione {
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+}
+
+.p_footer {
+    color: white;
+}
+
+.logo_ps {
+    height: 100px;
+}
