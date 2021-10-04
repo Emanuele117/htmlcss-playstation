@@ -331,10 +331,27 @@ header {
     width: 100vw;
     display: flex;
     justify-content: center;
+    margin-bottom: 4rem;
 }
 
 .img_sconti {
     height: 350px;
     width: 350px;
     margin: 20px;
+}
+
+/* /sezione sconti */
+
+/* playstation Now */
+
+.contenitore_now {
+    background-color: #161C3B;
+}
+
+.paragrafo_now {
+    color: white;
+}
+
+.scritta_now {
+    color: black;
 }
