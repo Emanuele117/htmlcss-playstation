@@ -8,10 +8,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-p {
-    margin-bottom: 0;
-}
-
 /* header */
 
 .contenitore_navbar {
@@ -64,12 +60,11 @@ header {
 .contenitore_hero {
     width: 100vw;
     height: 900px;
-}
-
-.hero-image {
-    width: 100vw;
+    background-image: url(./img/jumbo-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
     object-fit: contain;
-    height: 800px;
+    margin-bottom: 2rem;
 }
 
 .contenitore_returnal {
@@ -276,6 +271,7 @@ header {
     width: 100vw;
     height: 500px;
     margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 .cards_ps4 {
@@ -382,12 +378,12 @@ header {
 
 .row_now {
     text-align: center;
-    margin: 155px;
-    margin-top: 5rem;
+    margin: 300px;
+    margin-top: 4rem;
 }
 
 .img_now {
-    width: 200px;
+    width: 150px;
 }
 
 /* /playstation now */
@@ -396,8 +392,9 @@ header {
 
 .contenitore_links_footer {
     background-color: #00439C;
-    height: 650px;
+    height: 670px;
     width: 100vw;
+    margin-top: -10rem;
 }
 
 .contenitore_ps_footer {
