@@ -59,6 +59,8 @@ header {
 
 /* main */
 
+/* hero image returnal */
+
 .contenitore_hero {
     width: 100vw;
     height: 900px;
@@ -106,6 +108,10 @@ header {
     font-weight: bold;
 }
 
+/* /hero image returnal */
+
+/* cards returnal - ratchet clank */
+
 .cards_container {
     margin-top: -10rem;
 }
@@ -114,6 +120,10 @@ header {
     height: 100px;
     border-radius: 20px;
 }
+
+/* /cards returnal - ratchet clank */
+
+/* sezione playstation 5 */
 
 .row_play5 {
     justify-content: center;
@@ -179,6 +189,10 @@ header {
     justify-content: center;
 }
 
+/* /sezione playstation 5 */
+
+/* sezione it takes two */
+
 .contenitore_takes {
     width: 100vw;
     height: 574px;
@@ -199,6 +213,10 @@ header {
 .it_takes_photo {
     height: 150px;
 }
+
+/* /sezione it takes two */
+
+/* sezione nuove uscite */
 
 .contenitore_nuove_uscite {
     width: 100vw;
@@ -249,6 +267,8 @@ header {
     margin-bottom: 0;
     color: white;
 }
+
+/* /sezione nuove uscite */
 
 /* contenitore cards PS4 */
 
@@ -355,3 +375,21 @@ header {
 .scritta_now {
     color: black;
 }
+
+.row_now_titolo {
+    text-align: center;
+}
+
+.row_now {
+    text-align: center;
+    margin: 155px;
+    margin-top: 5rem;
+}
+
+.img_now {
+    width: 200px;
+}
+
+/* /playstation now */
+
+/* footer */
