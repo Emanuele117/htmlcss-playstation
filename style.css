@@ -167,7 +167,8 @@ header {
 }
 
 .col_foto {
-    margin: -15rem;
+    padding: 89px;
+    margin-top: -20rem;
 }
 
 .img-play {
@@ -175,7 +176,6 @@ header {
 }
 
 .contenitore-cards-play {
-    margin-top: 13rem;
     margin-bottom: 2rem;
     justify-content: center;
 }
@@ -425,4 +425,20 @@ header {
 
 .logo_ps {
     height: 100px;
+}
+
+/* effetti */
+
+.bottone_accedi:hover, .link_search:hover, .bottone_rosso:hover, .bottone_informazioni:hover {
+    cursor: pointer;
+}
+
+.img:hover {
+    height: 110px;
+    cursor: pointer;
+}
+
+.img-play:hover {
+    cursor: pointer;
+    opacity: 50%;
 }
