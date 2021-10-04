@@ -112,8 +112,12 @@ header {
 }
 
 .img {
-    height: 100px;
     border-radius: 20px;
+    height: 100%;
+}
+
+.colonna_img {
+    height: 100px;
 }
 
 /* /cards returnal - ratchet clank */
@@ -163,15 +167,20 @@ header {
 }
 
 .foto_play5 {
-    height: 600px;
+    height: 100%;
 }
 
 .col_foto {
     padding: 89px;
     margin-top: -20rem;
+    height: 600px;
 }
 
 .img-play {
+    height: 100%;
+}
+
+.colonna_foto_ps5 {
     height: 100px;
 }
 
@@ -206,6 +215,10 @@ header {
 }
 
 .it_takes_photo {
+    height: 100%;
+}
+
+.colonna_logo_takes {
     height: 150px;
 }
 
@@ -235,17 +248,16 @@ header {
 }
 
 .cards_nuove {
-    height: 200px;
-    width: 200px;
+    height: 100%;
     border-radius: 20px;
 }
 
 .card_nuova {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border: none;
     float: left;
-    margin-right: 8rem;
+    margin-right: 2.5rem;
 }
 
 .cards_body {
@@ -434,7 +446,7 @@ header {
 }
 
 .img:hover {
-    height: 110px;
+    /*  height: 110px; */
     cursor: pointer;
 }
 
